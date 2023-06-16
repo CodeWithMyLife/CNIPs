@@ -2,7 +2,7 @@ name: Build CNIPs
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 0 * * *"
+    - cron: "0 1 * * *"
   push:
     branches:
       - master
