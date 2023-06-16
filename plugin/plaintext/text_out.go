@@ -50,7 +50,7 @@ func (t *textOut) Output(container lib.Container) error {
 			if err != nil {
 				return err
 			}
-			filename := strings.ToLower(entry.GetName()) + ".txt"
+			filename := /*strings.ToLower(entry.GetName()) + */"CNIPs.txt"
 			if err := t.writeFile(filename, data); err != nil {
 				return err
 			}
@@ -67,7 +67,7 @@ func (t *textOut) Output(container lib.Container) error {
 			if err != nil {
 				return err
 			}
-			filename := strings.ToLower(entry.GetName()) + ".txt"
+			filename := /*strings.ToLower(entry.GetName()) + */"CNIPsD.txt"
 			if err := t.writeFile(filename, data); err != nil {
 				return err
 			}
