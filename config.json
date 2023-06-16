@@ -103,12 +103,12 @@
     },
     {
       "type": "text",
-      "action": "output"
+      "action": "output",
       "args": {
         "outputName": "CNIPs.list",
-        "wantedList": [
-          "cn"
-        ]
+        "outputDir": "./publish",
+        "wantedList": ["cn"],
+        "onlyIPType": "ipv4"
       }
     }
   ]
