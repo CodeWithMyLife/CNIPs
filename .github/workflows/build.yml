@@ -1,4 +1,4 @@
-name: Build geoip.dat
+name: Build CNIPs
 on:
   workflow_dispatch:
   schedule:
