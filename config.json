@@ -95,22 +95,21 @@
       "type": "maxmindMMDB",
       "action": "output",
       "args": {
-        "outputName": "Private-GeoIP-CN.mmdb",
+        "outputName": "CNIPs.mmdb",
         "wantedList": [
           "cn"
         ]
       }
     },
     {
-      "type": "maxmindMMDB",
-      "action": "output",
-      "args": {
-        "outputName": "Private-GeoIP.mmdb"
-      }
-    },
-    {
       "type": "text",
       "action": "output"
+      "args": {
+        "outputName": "CNIPs.list",
+        "wantedList": [
+          "cn"
+        ]
+      }
     }
   ]
 }
