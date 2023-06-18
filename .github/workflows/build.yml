@@ -24,7 +24,7 @@ jobs:
 
       - name: Set variables
         run: |
-          echo `TAG_NAME="Publish IPv4CIDRs"` >> $GITHUB_ENV
+          echo `TAG_NAME="Publish-IPv4CIDRs"` >> $GITHUB_ENV
           echo `RELEASE_NAME="Latest IPv4CIDRs"` >> $GITHUB_ENV
         shell: bash
 
