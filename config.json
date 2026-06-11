@@ -303,6 +303,17 @@
         ]
       }
     },
+    
+    {
+      "type": "v2rayGeoIPDat",
+      "action": "output",
+      "args": {
+        "outputDir": "./output",
+        "outputName": "geoip-cn.dat",
+        "wantedList": ["cn"]
+      }
+    },
+
     {
       "type": "maxmindMMDB",
       "action": "output",
